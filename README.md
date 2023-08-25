@@ -24,6 +24,7 @@ __Using the Git workflow__
 |git status|to check if file is committed|
 |git log|to check commit history|
 |git push|Push your work to Github|
+|git pull|to pull the changes from local repos and merge it to remote repos|
 |code. | to open file in visual studio code|
 |git add .|to add all files in the current directory to the staging area |
 |git config --global core.editor "code --wait"|git commit to type message with VSCode|
