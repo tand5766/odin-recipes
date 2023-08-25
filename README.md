@@ -4,9 +4,9 @@
 | Command | Function |
 | ------------- | ------------- |
 | ls ~/.ssh/id_ed25519.pub | to check if SSH key is installed  |
-| ssh-keygen -t ed25519 -C <youremail> | to create new SSH key |
+| ssh-keygen -t ed25519 -C (youremail) | to create new SSH key |
 |cat ~/.ssh/id_ed25519.pub|to show openssh public key format|
-[Testing your key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)|
+
 
 **Create the repository**
 
@@ -20,7 +20,7 @@ __Using the Git workflow__
 | touch hello_world.txt  |  to create a new file |
 |gid add hello_world.txt|add file to staging area|
 |git status| to checked if file is staged|
-|git commit -m "Add hello_world.txt|to make a commit|
+|git commit -m "Add hello_world.txt"|to make a commit|
 |git status|to check if file is committed|
 |git log|to check commit history|
 |git push|Push your work to Github|
