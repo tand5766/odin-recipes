@@ -17,7 +17,7 @@ git config --global user.email "yourname@example.com"
 - git config --get user.name
 git config --get user.email
 
-- To get rid of DS file
+- To get rid of .DS_Store file
 <br>echo .DS_Store >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
@@ -26,7 +26,7 @@ git config --global core.excludesfile ~/.gitignore_global
 | Command | Function |
 | ------------- | ------------- |
 | ls ~/.ssh/id_ed25519.pub | to check if SSH key is installed  |
-| ssh-keygen -t ed25519 -C (youremail) | to create new SSH key |
+| ssh-keygen -t ed25519 -C (your email) | to create new SSH key |
 |cat ~/.ssh/id_ed25519.pub|to show key format|
 
 
@@ -63,4 +63,5 @@ Add missing link and alt text to the company's logo
 <br>
 Screen readers won't read the images to users with disabilities without this information</br>
 
-`[How to Write a Git Commit Message](https://cbea.ms/git-commit)`
+[How to Write a Git Commit Message](https://cbea.ms/git-commit)
+
