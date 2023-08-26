@@ -1,5 +1,27 @@
 # PROJECT: ODIN-RECIPES
 ## Setting up Git
+**Step 2.2: Set up Git**
+- Configure Git
+<br>
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com"
+
+- Change branch
+<br>git config --global init.defaultBranch main
+
+- To enable colorful output with git
+<br>git config --global color.ui auto
+
+- git config --global pull.rebase false
+
+- git config --get user.name
+git config --get user.email
+
+- To get rid of DS file
+<br>echo .DS_Store >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
+
 **Step 2.3: Create an SSH key**
 | Command | Function |
 | ------------- | ------------- |
@@ -30,3 +52,15 @@ __Using the Git workflow__
 **Viewing your project on the web**
 
 `your-github-username.github.io/your-github-repo-name`
+
+**Commit messages**
+A commit message include:
+- Subject: this is the change i made to the code base.
+- Body: Describe the problem your commit solves and how.
+**Example:**
+
+Add missing link and alt text to the company's logo
+<br>
+Screen readers won't read the images to users with disabilities without this information</br>
+
+`[How to Write a Git Commit Message](https://cbea.ms/git-commit)`
